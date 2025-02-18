@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).(ttf|otf|eot|woff|woff2)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000, public"
+        }
+      ]
+    }
+  ]
+}
